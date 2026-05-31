@@ -241,8 +241,3 @@ Football Data Analyst | Python | Streamlit | Football Analytics
 
 - GitHub: https://github.com/stephen1-hub
 - LinkedIn: https://www.linkedin.com/in/ayamah-stephen
-
-GitHub: https://github.com/stephen1-hub/
-LinkedIn: www.linkedin.com/in/ayamah-stephen
-
-
