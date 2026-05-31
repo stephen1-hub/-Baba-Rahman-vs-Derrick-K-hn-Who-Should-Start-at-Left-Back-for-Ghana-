@@ -293,19 +293,19 @@ radar = pd.DataFrame({
     ],
 
     "Baba": [
-        85,
-        70,
-        88,
-        90,
-        95
+        54.319685,
+        46.465020,
+        100.000000,
+        100.000000,
+        100.000000
     ],
 
     "Kohn": [
-        70,
-        92,
-        75,
-        72,
-        65
+        100.000000,
+        100.000000,
+        96.410884,
+        92.810458,
+        64.705882
     ]
 })
 
@@ -353,8 +353,8 @@ readiness = pd.DataFrame({
         "Derrick Köhn"
     ],
     "Score": [
-        58,
-        42
+        86.3,
+        93.4
     ]
 })
 
@@ -362,47 +362,49 @@ fig = px.bar(
     readiness,
     x="Player",
     y="Score",
-    text="Score"
+    text="Score",
+    title="🇬🇭 Left-Back Readiness Index"
+)
+
+fig.update_traces(
+    texttemplate="%{text:.1f}",
+    textposition="outside"
+)
+
+fig.update_layout(
+    yaxis_title="Readiness Score",
+    xaxis_title="Player"
 )
 
 st.plotly_chart(fig, use_container_width=True)
 
-# =====================================================
-# VERDICT
-# =====================================================
+st.success("""
+### Analyst Verdict
 
-st.header("📌 Analyst Verdict")
+The data reveals two contrasting left-back profiles.
 
-st.success(
-"""
-Baba Rahman emerges as the more complete left-back based on:
+Derrick Köhn scores highest in the readiness model due to:
 
-• Better goal contribution output
+• Superior attacking output
+• Greater creativity
+• Higher xA
+• More chances created
+• Stronger crossing threat
 
-• Better discipline
+Baba Rahman remains the stronger defensive option due to:
 
-• Better aerial ability
-
+• Better defensive balance
 • Better possession security
+• Better discipline
+• More aerial dominance
 
-• Stronger defensive balance
+Final Readiness Index:
 
-• Europa League experience
+🥇 Derrick Köhn — 93.4
 
-Derrick Köhn remains a strong alternative due to:
+🥈 Baba Rahman — 86.3
 
-• Superior chance creation
-
-• Better crossing numbers
-
-• Higher expected assists
-
-• Bundesliga competition level
-
-FINAL VERDICT:
-
-Baba Rahman: 58%
-Derrick Köhn: 42%
-"""
-)
-
+Conclusion:
+Köhn profiles as the more attack-oriented modern full-back,
+while Baba offers greater defensive stability and reliability.
+""")
