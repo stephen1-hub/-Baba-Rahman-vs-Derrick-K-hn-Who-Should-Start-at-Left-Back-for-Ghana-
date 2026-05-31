@@ -16,6 +16,9 @@ This project uses club performance data to move beyond fan opinions and answer a
 > Based on the data, who should start at left-back for Ghana?
 
 ---
+## 🚀 Live Dashboard
+
+🔗 https://kjhmfhmpunakexxpfmzsaa.streamlit.app/
 
 ## 📊 Data Sources
 
@@ -113,7 +116,6 @@ The Streamlit dashboard includes:
 * Radar Chart
 * Left-Back Readiness Index
 * Final Analyst Verdict
-# Live demo: https://kjhmfhmpunakexxpfmzsaa.streamlit.app/
 ---
 
 ## 🔍 Key Findings
@@ -141,27 +143,66 @@ Strengths:
 * Greater creative involvement
 
 ---
+## 🧮 Readiness Index Model
+
+The final Readiness Index was calculated using a weighted scoring model:
+
+- Attack: 30%
+- Defense: 35%
+- Possession: 25%
+- Discipline: 10%
+
+Category scores were generated using per-90 metrics and normalized for comparison.
+
+This weighting reflects the responsibilities of a modern full-back, where defensive contribution remains the primary role while still rewarding attacking involvement and ball progression.
 
 ## 🏆 Final Verdict
 
-The data suggests that Baba Rahman remains Ghana's most complete left-back option.
+The analysis reveals two distinct left-back profiles.
 
-While Derrick Köhn offers greater creativity and crossing ability, Baba Rahman provides:
+### Baba Rahman
 
-* Better defensive balance
-* Better ball retention
-* Better discipline
-* More experience
-* Stronger all-round production
+Strengths:
+
+- Better defensive balance
+- Better possession security
+- Better discipline
+- Stronger aerial presence
+- More interceptions and clearances
+- Proven European experience with PAOK
+
+### Derrick Köhn
+
+Strengths:
+
+- Superior attacking output
+- Higher expected assists (xA)
+- More chances created
+- Greater crossing threat
+- More creative involvement in the final third
+- Regular Bundesliga experience
+
+The Readiness Index combines attacking contribution, creativity, defensive performance, possession impact, and discipline into a single weighted score.
 
 ### Readiness Index
 
-| Player       | Score |
-| ------------ | ----: |
-| Baba Rahman  |    58 |
-| Derrick Köhn |    42 |
+| Player | Score |
+|----------|----------:|
+| Derrick Köhn | 93.4 |
+| Baba Rahman | 86.3 |
 
----
+### Analyst Conclusion
+
+The model identifies Derrick Köhn as the highest-rated left-back due to his superior attacking and creative output.
+
+However, Baba Rahman remains the stronger defensive and possession-oriented option.
+
+The decision ultimately depends on Ghana's tactical priorities:
+
+- Need more creativity and attacking width? → Derrick Köhn
+- Need greater defensive stability and control? → Baba Rahman
+
+Rather than proving one player is objectively better, the analysis highlights how each player offers a different solution for the Black Stars.
 
 ## 🛠️ Tech Stack
 
@@ -197,6 +238,9 @@ streamlit run app.py
 Stephen Yaw Ayamah
 
 Football Data Analyst | Python | Streamlit | Football Analytics
+
+- GitHub: https://github.com/stephen1-hub
+- LinkedIn: https://www.linkedin.com/in/ayamah-stephen
 
 GitHub: https://github.com/stephen1-hub/
 LinkedIn: www.linkedin.com/in/ayamah-stephen
