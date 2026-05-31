@@ -216,10 +216,9 @@ Rather than proving one player is objectively better, the analysis highlights ho
 
 ## 📷 Dashboard Preview
 
-(Add dashboard screenshot here)
+<img width="1591" height="773" alt="image" src="https://github.com/user-attachments/assets/e4173d92-a88a-4c65-bdfa-a0b8cb66edc6" />
 
-```markdown
-<img width="1591" height="773" alt="image" src="https://github.com/user-attachments/assets/54bc8268-23fe-4e70-8ab3-05402078038e" />
+
 
 ```
 
