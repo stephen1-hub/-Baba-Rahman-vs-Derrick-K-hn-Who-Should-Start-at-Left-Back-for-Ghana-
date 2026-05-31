@@ -1,0 +1,12 @@
+ghana-left-back-debate/
+│
+├── app37.py
+├── requirements.txt
+├── README.md
+│
+├── assets/
+│   ├── players.jpg
+│   └── dashboard.png
+│
+└── data/
+    └── comparison_data.csv
