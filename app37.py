@@ -408,3 +408,10 @@ Conclusion:
 Köhn profiles as the more attack-oriented modern full-back,
 while Baba offers greater defensive stability and reliability.
 """)
+# ------------------------------------------------------------
+# FOOTER
+# ------------------------------------------------------------
+
+st.caption(
+    "Built by Stephen Yaw Ayamah | Football Analytics | Python | Fbref and Fotmob Data"
+)
